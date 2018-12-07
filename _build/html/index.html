@@ -34,8 +34,23 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Welcome to NBABasketball’s documentation!</a></li>
-<li><a class="reference internal" href="#hello">Hello</a></li>
+<li><a class="reference internal" href="#">Welcome to NBABasketball’s documentation!</a><ul>
+<li><a class="reference internal" href="#background">Background</a></li>
+<li><a class="reference internal" href="#goal">Goal</a></li>
+<li><a class="reference internal" href="#methodology">Methodology</a></li>
+<li><a class="reference internal" href="#visualizations">Visualizations</a><ul>
+<li><a class="reference internal" href="#first-graph-shows-the-total-amount-of-awards-won-for-each-player-over-the-last-two-seasons-awards-means-the-player-winning-the-player-of-the-week-and-this-is-represented-as-awards-for-us">First graph shows the total amount of awards won for each player over the last two seasons.  Awards means the player winning the player of the week, and this is represented as awards for us.</a></li>
+<li><a class="reference internal" href="#our-next-graph-shows-the-top-5-highest-paid-players">Our next graph shows the top 5 highest paid players</a></li>
+<li><a class="reference internal" href="#does-salary-correlate-to-the-amount-of-times-the-award-is-won-award-would-be-the-player-of-the-week-award">Does salary correlate to the amount of times the award is won?  Award would be the player of the week award.</a></li>
+<li><a class="reference internal" href="#lets-look-at-the-value-of-each-position">Let’s look at the value of each position:</a></li>
+<li><a class="reference internal" href="#since-these-are-the-cases-with-position-and-salary-do-players-of-certain-heights-get-paid">Since these are the cases with position and salary, do players of certain heights get paid?</a></li>
+<li><a class="reference internal" href="#now-we-are-going-to-look-at-if-a-players-height-correlates-with-the-awards-they-have-won">Now we are going to look at if a players height correlates with the awards they have won.</a></li>
+<li><a class="reference internal" href="#one-interesting-we-looked-at-was-a-bar-graph-of-how-many-years-in-the-league-for-each-position">One interesting we looked at was a bar graph of how many years in the league for each position.</a></li>
+<li><a class="reference internal" href="#here-is-a-distribution-of-the-award-winners">Here is a distribution of the award winners:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
   <div role="note" aria-label="source link">
@@ -69,14 +84,90 @@
 <h1>Welcome to NBABasketball’s documentation!<a class="headerlink" href="#welcome-to-nbabasketball-s-documentation" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<div class="section" id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h2>
+<p>We wanted to look at the NBA, the reason being that the game has changed so much in the last several years. Players are shooting threes at an alarming rate. There are weekly awards that reflect players’ performances throughout 7 days. We specifically wanted to look at these award winners and see how much these players make. For those who lead the NBA in salary, are they winning this award? Is the money they are getting paid justified by their play? We used a “Player of the Week” data set in order to gather our initial data. We then screen scraped from ESPN to gather salaries from the last two seasons.</p>
 </div>
-<div class="section" id="hello">
-<h1>Hello<a class="headerlink" href="#hello" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="goal">
+<h2>Goal<a class="headerlink" href="#goal" title="Permalink to this headline">¶</a></h2>
+<p>We wanted to look at a these award winners from the last two full seasons and compare them to their salary. Which positions make the most and get paid the most? Is there a correlation between total amount of awards won and salary?</p>
+</div>
+<div class="section" id="methodology">
+<h2>Methodology<a class="headerlink" href="#methodology" title="Permalink to this headline">¶</a></h2>
+<p>Our data will be posted in GitHub visible to the public. Essentially, we gathered data from the set, scraped from ESPN and then put both into dataframes and combined them. Then we visualized like this.</p>
+</div>
+<div class="section" id="visualizations">
+<h2>Visualizations<a class="headerlink" href="#visualizations" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="first-graph-shows-the-total-amount-of-awards-won-for-each-player-over-the-last-two-seasons-awards-means-the-player-winning-the-player-of-the-week-and-this-is-represented-as-awards-for-us">
+<h3>First graph shows the total amount of awards won for each player over the last two seasons.  Awards means the player winning the player of the week, and this is represented as awards for us.<a class="headerlink" href="#first-graph-shows-the-total-amount-of-awards-won-for-each-player-over-the-last-two-seasons-awards-means-the-player-winning-the-player-of-the-week-and-this-is-represented-as-awards-for-us" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/Players_Hor_Bar_Graph.png" src="_images/Players_Hor_Bar_Graph.png" />
+</div>
+<p>This shows that DeMar DeRozan and James Harden have the most awards in the last two seasons with 9. The reason the x-axis is showing only to 4.5 is that the column is real_value and for each award won, it increments by .5. LeBron James has 8 awards won. Then the next two are Stephen Curry and Russell Westbrook. What makes this horizontal bar chart really interesting is we have around 10 players who have won the award more than other players, and then we have a lot of the other players winning the award the same amount of times.</p>
+</div>
+<div class="section" id="our-next-graph-shows-the-top-5-highest-paid-players">
+<h3>Our next graph shows the top 5 highest paid players<a class="headerlink" href="#our-next-graph-shows-the-top-5-highest-paid-players" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/Top5PlayersSalary.png" src="_images/Top5PlayersSalary.png" />
+</div>
+<p>Coincidentally, the top 5 most award winners are also the top 5 highest paid players. This means that these players who are getting paid the most are worth the money.  Also, this shows how important having a top player like these players are to their team.  Each of these teams that these players are on very successful teams.  For example, LeBron James and DeMar DeRozan are on the two top teams in the Eastern Conference, while moving to the Western Conference Steph Curry and James Harden are on the top two teams in the West.  Now this leads us to our next question, does salary correlate to amount of times the award is won?</p>
+</div>
+<div class="section" id="does-salary-correlate-to-the-amount-of-times-the-award-is-won-award-would-be-the-player-of-the-week-award">
+<h3>Does salary correlate to the amount of times the award is won?  Award would be the player of the week award.<a class="headerlink" href="#does-salary-correlate-to-the-amount-of-times-the-award-is-won-award-would-be-the-player-of-the-week-award" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/PlayersAwardsWon.png" src="_images/PlayersAwardsWon.png" />
+</div>
+<p>We would say there is a trend that players who make more, do end up winning the award based on performance required with such a high contract. The NBA is a business and they will just buy you out if you don’t perform.</p>
+</div>
+<div class="section" id="lets-look-at-the-value-of-each-position">
+<h3>Let’s look at the value of each position:<a class="headerlink" href="#lets-look-at-the-value-of-each-position" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/SalaryByPosition.png" src="_images/SalaryByPosition.png" />
+</div>
+<p>You can see, Point Guards and Small Forwards are the most valuable. I tried to run a graph with the positions who won the award the most, but the null values have messed up the graph. But, we know that Small Forwards and Point Guards have the most awards won. We believe  this shows that those two positions are most valuable. But, that could be because the top players in those two positions.  Another thing to think about is the game of basketball is changing, with players shooting much more threes the bigs have to change their game.  So this could also be why the guards favor better in the game of basketball in today’s game.</p>
+</div>
+<div class="section" id="since-these-are-the-cases-with-position-and-salary-do-players-of-certain-heights-get-paid">
+<h3>Since these are the cases with position and salary, do players of certain heights get paid?<a class="headerlink" href="#since-these-are-the-cases-with-position-and-salary-do-players-of-certain-heights-get-paid" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/HeightsRealValue.png" src="_images/HeightsRealValue.png" />
+</div>
+<p>There isn’t a lot of  correlation here. We believe that is due to the fact that positions in the NBA are becoming positionless. Heights of PGs are becoming up to 7 feet! It will be hard to look at salaries and height together.</p>
+</div>
+<div class="section" id="now-we-are-going-to-look-at-if-a-players-height-correlates-with-the-awards-they-have-won">
+<h3>Now we are going to look at if a players height correlates with the awards they have won.<a class="headerlink" href="#now-we-are-going-to-look-at-if-a-players-height-correlates-with-the-awards-they-have-won" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/HeightsAwardsWon.png" src="_images/HeightsAwardsWon.png" />
+</div>
+<p>Then we look at Height to awards won. There is a slight negative correlation here showing that the shorter you are (to a point), the more likely you are to win the award.</p>
+</div>
+<div class="section" id="one-interesting-we-looked-at-was-a-bar-graph-of-how-many-years-in-the-league-for-each-position">
+<h3>One interesting we looked at was a bar graph of how many years in the league for each position.<a class="headerlink" href="#one-interesting-we-looked-at-was-a-bar-graph-of-how-many-years-in-the-league-for-each-position" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/ExperiencePlayerAwardsWon.png" src="_images/ExperiencePlayerAwardsWon.png" />
+</div>
+<p>The more experienced players are the ones more likely to win the award, and you see the most experienced players are PG and SF. This leads us to believe that paying these super young players may not be entirely worth the money.</p>
+</div>
+<div class="section" id="here-is-a-distribution-of-the-award-winners">
+<h3>Here is a distribution of the award winners:<a class="headerlink" href="#here-is-a-distribution-of-the-award-winners" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="_images/BarExperiencePlayersAwardsWon.png" src="_images/BarExperiencePlayersAwardsWon.png" />
+</div>
+<div class="figure">
+<img alt="_images/DistributionExperiencePlayersAwardsWon.png" src="_images/DistributionExperiencePlayersAwardsWon.png" />
+</div>
+<p>Frequently, award winners are within the 5 to 6 year range, but we we’ve seen that the more experienced players win it most.  This also explains how underrated or undervalued experience players go sometimes.  The graphs above show how important 5 yeards can be to a player.  With this time this allows an NBA player to grow and improve his game.</p>
+<div class="figure">
+<img alt="_images/ScatterExperiencePlayersAwardsWon.png" src="_images/ScatterExperiencePlayersAwardsWon.png" />
+</div>
+<p>Here is an example of years in league and awards won. Clearly, you can see the cluster in the 5 to 6 years range, but from 8 to 14 have the highest award winners. The saying goes, “The best contracts are max contracts.” Since teams are capped on spending, it’s</p>
+<hr class="docutils" />
 <ul class="simple">
 <li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
 <li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
 <li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
 </ul>
+</div>
+</div>
 </div>
 
 
