@@ -12,7 +12,7 @@ Welcome to NBABasketball's documentation!
 
 
 
-Indices and tables
+Hello
 ==================
 
 * :ref:`genindex`
