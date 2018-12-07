@@ -103,6 +103,7 @@ To go along with the graph above, we looked at a distribution of awards won:
 Most of these players in the last two seasons have won an average of about two. It’s interesting to look at how the amount varies throughout two seasons. One might think that a different player would win it each week or even the same players through the season, but we can see there is some variation. 
 
 We also looked at how teams rank in award wins:
+****
 
 .. figure:: TeamsSuccess.png
 
