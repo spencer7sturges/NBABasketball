@@ -93,7 +93,30 @@ Frequently, award winners are within the 5 to 6 year range, but we we’ve seen 
 
 .. figure:: ScatterExperiencePlayersAwardsWon.png
 
-Here is an example of years in league and awards won. Clearly, you can see the cluster in the 5 to 6 years range, but from 8 to 14 have the highest award winners. The saying goes, “The best contracts are max contracts.” Since teams are capped on spending, it’s 
+Here is an example of years in league and awards won. Clearly, you can see the cluster in the 5 to 6 years range, but from 8 to 14 have the highest award winners. The saying goes, “The best contracts are max contracts.” Since teams are capped on spending, it’s nice to retain invaluable players for a value that’s under their potential. For example, LeBron James who has been in the league for 14 years on the graph above, has multiple mvps and three championships. Clearly, underpaid at 35 million.
+
+To go along with the graph above, we looked at a distribution of awards won:
+*****
+
+.. figure:: AwardsWon.png
+
+Most of these players in the last two seasons have won an average of about two. It’s interesting to look at how the amount varies throughout two seasons. One might think that a different player would win it each week or even the same players through the season, but we can see there is some variation. 
+
+We also looked at how teams rank in award wins:
+
+.. figure:: TeamsSuccess.png
+
+The top four teams were Rockets, Cavaliers, Warriors, and Raptors. Those have been the top four teams in the last two years. The Warriors and Cavaliers have been to the finals the last two years and they have the two highest paid players on their respective squads. I would say there is justification for paying those who win this award frequently.
+
+Findings
+#####
+
+We found that players that win this award the most deserve to be paid. There are more predictors for teams to look at than just Player of The Week, but it’s a good start. There was a correlation between high salary and Player of The Week. I don’t think it’s causation but players are expected to perform when earning high amounts of money. We also found that teams that have these winners on their team exude success. Rockets, Raptors, Cavs, and Warriors have frequent winners and their teams are consistently at the top of the NBA. 
+
+As an NBA GM, they definitely look at positions of players when drafting and signing. Conceptually, having five solid guys would be ideal, but in today’s NBA, if you don’t have a top PG or SF, you can’t succeed. Centers haven’t won the award as often as guards, but if we had to look more, we should look at different eras and categorize the seasons. Centers in the ‘80s and ‘90s were more valuable than guards, but the game has changed. 
+
+Next time anyone watches an NBA game look for the team’s best player, if it’s a guard and small forward, the team’s record will reflect that. 
+
 
 
 =================
